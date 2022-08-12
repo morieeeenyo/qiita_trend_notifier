@@ -2,6 +2,9 @@
 
 `qiita_trend`gemを使用したSlack通知用のスクリプトです
 
+※
+[こちらの記事](https://qiita.com/dodonki1223/items/955819806297ee554b31)より引用
+
 ![SlackNotifySample](image/slack_notify_sample.png)
 
 ## 使用方法
