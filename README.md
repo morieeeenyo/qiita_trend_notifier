@@ -85,3 +85,14 @@ $ ruby notify_trend.rb -t monthly
 # monthlyのトレンドでNEWのものだけをSlackに通知
 $ ruby notify_trend.rb -t monthly --new
 ```
+
+## cronで定期実行
+
+```
+contrab -e
+```
+
+```
+# 分 時 日 月 曜日 ユーザー名 コマンド
+0  5  *  *  * root cd ~/projects/qiita_trend_slack_notifier && ruby notify_trend.rb --new
+```
